@@ -1,0 +1,55 @@
+{
+    "name": "node-red",
+    "version": "2.0.2",
+    "description": "Low-code programming for event-driven applications",
+    "homepage": "http://nodered.org",
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/node-red/node-red.git"
+    },
+    "main": "lib/red.js",
+    "scripts": {
+        "start": "node red.js"
+    },
+    "bin": {
+        "node-red": "./red.js",
+        "node-red-pi": "bin/node-red-pi"
+    },
+    "contributors": [
+        {
+            "name": "Nick O'Leary"
+        },
+        {
+            "name": "Dave Conway-Jones"
+        }
+    ],
+    "keywords": [
+        "editor",
+        "messaging",
+        "iot",
+        "flow"
+    ],
+    "dependencies": {
+        "@node-red/editor-api": "2.0.2",
+        "@node-red/nodes": "2.0.2",
+        "@node-red/runtime": "2.0.2",
+        "@node-red/util": "2.0.2",
+        "basic-auth": "2.0.1",
+        "bcryptjs": "2.4.3",
+        "express": "4.17.1",
+        "fs-extra": "10.0.0",
+        "i18n-js": "^3.8.0",
+        "node-red-admin": "^2.2.0",
+        "node-red-example-affichage": "file:D:/stage_Hydatis/node-red-example-affichage",
+        "nopt": "5.0.0",
+        "semver": "7.3.5",
+        "test-subflow-mod": "file:D:/stage_Hydatis/package"
+    },
+    "optionalDependencies": {
+        "bcrypt": "5.0.1"
+    },
+    "engines": {
+        "node": ">=12"
+    }
+}
